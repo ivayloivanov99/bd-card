@@ -93,9 +93,11 @@ html, body {
     object-fit: contain;
   }
 
-  .youtube-container {
-    width: 100%;      /* full width of screen */
-    height: 50vh;     /* adjust height to fit mobile */
+   .youtube-container {
+    width: 100%; 
+    max-height: calc(100vh - 100px); /* leave 50px padding top & bottom */
+    padding: 50px 0;                 /* top and bottom padding */
+    box-sizing: border-box;
   }
 
   .youtube-container iframe {
