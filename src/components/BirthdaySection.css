@@ -1,0 +1,94 @@
+/* Reset */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ffe0ec, #ffd6f5);
+  overflow: hidden; /* prevent scroll */
+}
+
+/* Main section */
+.birthday-section {
+  height: 100vh; /* full screen */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* top text, center image, bottom button */
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+/* Top text */
+.birthday-section h1 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  margin: 0;
+  color: #ff4d6d;
+  word-break: keep-all; /* avoid line breaks in mobile */
+}
+
+/* Image */
+.birthday-section img {
+  width: 100%;        /* full width of container */
+  height: auto;       /* maintain aspect ratio */
+  object-fit: contain; /* no cropping */
+  max-height: 65vh;   /* limit height on desktop */
+  
+  
+}
+
+/* Button */
+.birthday-section button {
+  padding: 15px 40px;
+  font-size: clamp(14px, 2vw, 18px);
+  border: none;
+  border-radius: 50px;
+  background-color: #ff4d6d;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.birthday-section button:hover {
+  background-color: #ff1f4b;
+  transform: scale(1.05);
+}
+
+.youtube-container {
+  width: 100%;
+  height: 70vh; /* adjust as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.youtube-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .birthday-section {
+    padding-top: 60px;    /* space from top */
+    padding-bottom: 60px; /* space from bottom */
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-around; /* make space for button */
+    overflow-y: auto;
+  }
+
+  .birthday-section button {
+    width: 90%;           /* make it full width on mobile */
+    font-size: 16px;
+    z-index: 10;          /* ensure it’s above everything */
+  }
+
+  .birthday-section img {
+    width: 100%;
+    height: auto;
+    max-height: 50vh;
+    object-fit: contain;
+  }
+}
