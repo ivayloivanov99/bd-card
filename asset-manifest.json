@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/bd-card/static/css/main.b8bfdd57.css",
+    "main.js": "/bd-card/static/js/main.3cda598e.js",
+    "static/media/birthday8.jpg": "/bd-card/static/media/birthday8.198a747b78ad0b32c4c9.jpg",
+    "static/media/birthday4.jpg": "/bd-card/static/media/birthday4.452d892569ffd7e711f1.jpg",
+    "static/media/birthday3.jpg": "/bd-card/static/media/birthday3.f914efa042d1962b1501.jpg",
+    "static/media/birthday.jpg": "/bd-card/static/media/birthday.6a756f6b04bf36e55e33.jpg",
+    "static/media/birthday10.jpg": "/bd-card/static/media/birthday10.4c0d347e361cae6e58d0.jpg",
+    "static/media/birthday1.jpg": "/bd-card/static/media/birthday1.8369caf6a0a088633149.jpg",
+    "static/media/birthday6.jpg": "/bd-card/static/media/birthday6.3fe30fe70fa941377217.jpg",
+    "static/media/birthday7.jpg": "/bd-card/static/media/birthday7.83c0bfb360fd93f50c59.jpg",
+    "static/media/birthday9.jpg": "/bd-card/static/media/birthday9.34b2da76bd3be725ca2b.jpg",
+    "static/media/birthday2.jpg": "/bd-card/static/media/birthday2.fe5ef52c5c6945abe019.jpg",
+    "static/media/birthday5.jpg": "/bd-card/static/media/birthday5.057353bd7d25a85a8b9e.jpg",
+    "index.html": "/bd-card/index.html",
+    "main.b8bfdd57.css.map": "/bd-card/static/css/main.b8bfdd57.css.map",
+    "main.3cda598e.js.map": "/bd-card/static/js/main.3cda598e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8bfdd57.css",
+    "static/js/main.3cda598e.js"
+  ]
+}
